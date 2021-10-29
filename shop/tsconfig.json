@@ -21,11 +21,9 @@
       "@lib/*": ["src/lib/*"],
       "@store/*": ["src/store/*"],
       "@settings/*": ["src/settings/*"],
-      // "@framework/*": ["src/framework/graphql/*"] // please uncomment it if you want to use @framework/graphql
-      "@framework/*": ["src/framework/rest/*"] // please uncomment it if you want to use @framework/rest
+      "@framework/*": ["src/framework/graphql/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-  "exclude": ["node_modules", "./src/framework/graphql"] // please uncomment it if you want to use @framework/rest
-  // "exclude": ["node_modules", "./src/framework/rest"] // please uncomment it if you want to use @framework/graphql
+  "exclude": ["node_modules", "./src/framework/rest"]
 }
